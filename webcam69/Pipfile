@@ -1,0 +1,34 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+aiohttp = "*"
+sqlalchemy = "*"
+pydantic = "*"
+python-dotenv = "*"
+asyncpg = "*"
+gunicorn = "*"
+alembic = "*"
+psycopg2-binary = "*"
+pydentic = "*"
+pytest = "*"
+pytest-aiohttp = "*"
+pytest-httpserver = "*"
+pytest-asyncio = "*"
+mockito = "*"
+aredis = "*"
+requests = "*"
+python-dateutil = "*"
+celery = {extras = ["redis"], version = "*"}
+flower = "*"
+asgiref = "*"
+dramatiq = "*"
+webargs = "*"
+sentry-sdk = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.7"

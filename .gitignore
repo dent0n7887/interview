@@ -1,0 +1,12 @@
+.idea/
+
+**/static
+**/logs
+**/media
+**/migrations
+**/__pycache__
+.pytest_cache
+
+*.env
+.setenv
+webcam-internal-billing-deployment.yaml
